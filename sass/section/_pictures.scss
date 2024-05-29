@@ -1,0 +1,43 @@
+.pictures-title {
+  color: var(--text-color);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 1.08px;
+}
+.pictures-list {
+  display: flex;
+  margin-top: 50px;
+  gap: 30px;
+  position: relative;
+}
+
+.pictures-photo {
+  position: relative;
+  width: 370px;
+  height: 294px;
+}
+
+.text-box {
+  position: relative;
+  width: 370px;
+  height: 70px;
+  flex-shrink: 0;
+  background: rgba(47, 48, 58, 0.8);
+  bottom: 70px;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14px;
+  padding-top: 27px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+
+.pictures {
+  padding-bottom: 94px;
+}
+
+

@@ -1,0 +1,193 @@
+
+
+.workers-title {
+    text-align: center;
+    color: var(--text-color);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.08px;
+  }
+  
+  .worker-photo {
+    width: 270px;
+    height: 260px;
+  }
+  
+  .workers {
+    background: #f5f4fa;
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  
+  .workers-list {
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+  }
+  
+  .worker-name {
+    color: var(--text-color);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.48px;
+    margin-top: 30px;
+  }
+  
+  .worker-skill {
+    color: var(--content-color);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.48px;
+    margin-top: 10px;
+    padding-bottom: 30px;
+  }
+  
+  .worker-item {
+    border: 1px solid #eee;
+    background: #fff;
+    box-shadow: 0px 5px 15px -10px black;
+  }
+  
+.information {
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+    list-style: none;
+    padding-bottom: 30px;
+  }
+  
+  .instagram {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    fill: #afb1b8;
+    transition-duration:  500ms;
+    transition-property: fill, background;
+     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
+  }
+  
+  .linkedin {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    fill: #afb1b8;
+    transition-duration:  500ms;
+    transition-property: fill, background;
+     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
+  }
+  
+  .facebook {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    fill: #afb1b8;
+    transition-duration:  500ms;
+    transition-property: fill, background;
+     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
+  }
+  
+  .twitter {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    fill: #afb1b8;
+    transition-duration:  500ms;
+    transition-property: fill, background;
+     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
+  }
+  
+  .instagram :hover {
+    width: 44px;
+    height: 44px;
+    border-radius: 100px;
+  
+  }
+  .svg-instagram {
+    width: 44px;
+    height: 44px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .svg-instagram:hover {
+    background-color: #2196f3;
+  }
+  
+  .svg-instagram:hover .instagram {
+    fill: #fff;
+  }
+  .twitter :hover {
+    width: 44px;
+    height: 44px;
+    border-radius: 100px;
+  }
+  .svg-twitter {
+    width: 44px;
+    height: 44px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .svg-twitter:hover {
+    background-color: #2196f3;
+  }
+  
+  .svg-twitter:hover .twitter {
+    fill: #fff;
+  }
+  
+  .facebook :hover {
+    width: 44px;
+    height: 44px;
+    border-radius: 100px;
+  }
+  .svg-facebook {
+    width: 44px;
+    height: 44px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .svg-facebook:hover {
+    background-color: #2196f3;
+  }
+  
+  .svg-facebook:hover .facebook {
+    fill: #fff;
+  }
+  
+  .linkedin :hover {
+    width: 44px;
+    height: 44px;
+    border-radius: 100px;
+  }
+  .svg-linkedin {
+    width: 44px;
+    height: 44px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .svg-linkedin:hover {
+    background-color: #2196f3;
+  }
+  
+  .svg-linkedin:hover .linkedin {
+    fill: #fff;
+  }
+  

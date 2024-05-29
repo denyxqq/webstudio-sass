@@ -1,0 +1,53 @@
+
+.clients-title {
+    color: #212121;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    justify-content: center;
+  }
+  
+  .clients {
+    height: 372px;
+  }
+  
+  .clients-box {
+    border-radius: 4px;
+    border: 1px solid#AFB1B8 ;
+    width: 170px;
+    height: 92px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .clients-name {
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+    list-style: none;
+  }
+  
+  .clients-logo {
+    width: 106px;
+    height: 60px;
+    flex-shrink: 0;
+    fill: #AFB1B8;
+    transition-duration:  500ms;
+    transition-property: fill, background;
+     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
+  }
+  
+  .clients-box:hover {
+    color: #2196f3;
+  border: 1px solid #2196f3;
+  }
+  
+  .clients-box:hover .clients-logo {
+    fill: #2196f3;
+  }

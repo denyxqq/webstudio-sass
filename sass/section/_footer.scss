@@ -1,0 +1,143 @@
+.footr {
+    background: var(--footer-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  
+
+.join-social {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+  }
+  
+  .social-media {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-social {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+  }
+  
+  .flex-social {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    padding-bottom: 21px;
+  }
+  
+  .icons-footer-link {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    fill: #f5f4fa;
+  }
+  .footer-svg {
+    border-radius: 100px;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: #f5f4fa;
+    transition-duration:  500ms;
+    transition-property: fill, background;
+     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .footer-svg:hover {
+    background-color: #2196f3;
+  }
+  
+  .mail-svg {
+    width: 16px;
+    height: 12px;
+    flex-shrink: 0;
+    margin-right: 10px;
+    fill: gray;
+  }
+  
+.footer-logo {
+    color: var(--button-color);
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.78px;
+  }
+  
+  
+  .adres {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.42px;
+    margin-top: 20px;
+    font-style: normal;
+  }
+  
+  .info-footer {
+    list-style: none;
+    color: var(--content-color);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.42px;
+    margin-top: 9px;
+  }
+  
+.spam-sub {
+    width: 358px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(33, 150, 243, 0);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  }
+  
+  .sub-links {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+  }
+  
+  .sub-about {
+  }
+
+  .button-telegram {
+    position: relative;
+    width: 200px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #2196f3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: #fff;
+  }
+  
+  .button-logo {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    fill: #fff;
+    right: 48px;
+    top: 7px;
+  }
+  

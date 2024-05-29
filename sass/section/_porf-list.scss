@@ -1,0 +1,100 @@
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: relative;
+  }
+  
+  .photo {
+    width: 370px;
+    border: 1px solid #eee;
+    background: #fff;
+    flex-basis: calc((100% - 60px) / 3);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .poster-about {
+    margin-top: 20px;
+    color: var(--text-color);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 1.08px;
+    padding-left: 24px;
+  }
+  
+  .poster-name {
+    margin-top: 4px;
+    color: var(--content-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.48px;
+    padding-left: 24px;
+    padding-bottom: 20px;
+  }
+  a {
+    color: inherit;
+  }
+  .buttons-catalogue {
+    padding-top: 94px;
+    padding-bottom: 50px;
+  }
+  
+  .photo-post {
+    padding-bottom: 94px;
+  }
+  
+  
+  
+  .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  
+  
+  .card-background {
+    width: 370px;
+    height: 294px;
+    background: rgba(33, 150, 243, 0.9);
+    position: absolute;
+    z-index: 2;
+    top: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    top: 100%;
+  }
+  
+  .text-card {
+    width: 322px;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+    letter-spacing: 0.54px;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .card-poster:hover .card-background {
+    opacity: 1;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    top: 0;
+  }
+  .perf {
+    margin-bottom: 28px;
+  }
