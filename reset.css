@@ -1,0 +1,28 @@
+button {
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-item,
+.header-contact,
+.info-item,
+.pictures-list,
+.workers-list,
+.buttons,
+.list {
+  list-style: none;
+}
+h1,
+h3,
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
