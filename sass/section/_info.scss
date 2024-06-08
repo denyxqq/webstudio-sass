@@ -2,11 +2,13 @@
 .info {
     padding-top: 94px;
     padding-bottom: 94px;
+  
+    &__list {
+      display: flex;
+    }
   }
   
-  .info-list {
-    display: flex;
-  }
+  
   
   .info-heading {
     color: var(--text-color);
@@ -19,7 +21,7 @@
   
   
   
-  .info-list {
+  .info__list {
     display: flex;
     gap: 30px;
   }
@@ -39,7 +41,7 @@
   
 .info-item::before {
     display: flex;
-    content: url(./images/spytnik.png);
+    content: url(../images/spytnik.png);
     background-color: #f5f4fa;
     width: 270px;
     height: 120px;
@@ -49,21 +51,21 @@
   }
   
   .info-before::before {
-    content: url(./images/pc.png);
+    content: url(../images/pc.png);
     background-color: #f5f4fa;
     width: 270px;
     height: 120px;
   }
   
   .info-clock::before {
-    content: url(./images/clock.png);
+    content: url(../images/clock.png);
     background-color: #f5f4fa;
     width: 270px;
     height: 120px;
   }
   
   .info-austronaut::before {
-    content: url(./images/astronaut.png);
+    content: url(../images/astronaut.png);
     background-color: #f5f4fa;
     width: 270px;
     height: 120px;
