@@ -5,12 +5,14 @@
   
     &__list {
       display: flex;
+
+  
+      &__item {
+      }
     }
-  }
-  
-  
-  
-  .info-heading {
+
+    
+  &__heading {
     color: var(--text-color);
     font-size: 14px;
     font-weight: 700;
@@ -18,15 +20,10 @@
     text-transform: uppercase;
     margin-top: 20px;
   }
+
+
   
-  
-  
-  .info__list {
-    display: flex;
-    gap: 30px;
-  }
-  
-  .info-text {
+  &__text {
     margin-top: 10px;
     color: var(--content-color);
     font-size: 14px;
@@ -34,44 +31,63 @@
     line-height: 1.71;
     letter-spacing: 0.42px;
   }
-  
-  .info-item {
 
+    
+ &__list {
+  display: flex;
+  gap: 30px;
+}
+
+  
+  
+&__item::before {
+  display: flex;
+  content: url(../images/spytnik.png);
+  background-color: #f5f4fa;
+  width: 270px;
+  height: 120px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+&__item {
+  display: flex;
+  flex-direction: column;
+}
+
+
+&__clock::before {
+  content: url(../images/clock.png);
+  background-color: #f5f4fa;
+  width: 270px;
+  height: 120px;
+}
+
+
+ 
+&__austronaut::before {
+  content: url(../images/astronaut.png);
+  background-color: #f5f4fa;
+  width: 270px;
+  height: 120px;
+}
+
+
+
+&__before::before {
+  content: url(../images/pc.png);
+  background-color: #f5f4fa;
+  width: 270px;
+  height: 120px;
+}
   }
   
-.info-item::before {
-    display: flex;
-    content: url(../images/spytnik.png);
-    background-color: #f5f4fa;
-    width: 270px;
-    height: 120px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-  }
   
-  .info-before::before {
-    content: url(../images/pc.png);
-    background-color: #f5f4fa;
-    width: 270px;
-    height: 120px;
-  }
   
-  .info-clock::before {
-    content: url(../images/clock.png);
-    background-color: #f5f4fa;
-    width: 270px;
-    height: 120px;
-  }
   
-  .info-austronaut::before {
-    content: url(../images/astronaut.png);
-    background-color: #f5f4fa;
-    width: 270px;
-    height: 120px;
-  }
   
-  .info-item {
-    display: flex;
-    flex-direction: column;
-  }
+
+
+  
+ 

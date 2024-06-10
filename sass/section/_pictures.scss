@@ -1,24 +1,36 @@
-.pictures-title {
-  color: var(--text-color);
-  text-align: center;
-  font-size: 36px;
-  font-weight: 700;
-  letter-spacing: 1.08px;
-}
-.pictures-list {
+
+
+
+.pictures {
+  padding-bottom: 94px;
+
+  &__title {
+    color: var(--text-color);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.08px;
+  }
+
+
+  
+&__list {
   display: flex;
   margin-top: 50px;
   gap: 30px;
   position: relative;
 }
 
-.pictures-photo {
+
+&__photo {
   position: relative;
   width: 370px;
   height: 294px;
 }
 
-.text-box {
+
+
+&__box {
   position: relative;
   width: 370px;
   height: 70px;
@@ -33,11 +45,7 @@
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.42px;
-  text-transform: uppercase;
+  text-transform: uppercase
 }
 
-.pictures {
-  padding-bottom: 94px;
 }
-
-

@@ -1,11 +1,3 @@
-:root {
-  --text-color: #212121;
-  --content-color: #757575;
-  --footer-color: #2f303a;
-  --button-color: #2196f3;
-  --hero-background: #2f303a;
-}
-
 .container {
   width: 1200px;
   /* border: dotted red; */
@@ -206,8 +198,7 @@ p {
 .info__list {
   display: flex;
 }
-
-.info-heading {
+.info__heading {
   color: var(--text-color);
   font-size: 14px;
   font-weight: 700;
@@ -215,13 +206,7 @@ p {
   text-transform: uppercase;
   margin-top: 20px;
 }
-
-.info__list {
-  display: flex;
-  gap: 30px;
-}
-
-.info-text {
+.info__text {
   margin-top: 10px;
   color: var(--content-color);
   font-size: 14px;
@@ -229,8 +214,11 @@ p {
   line-height: 1.71;
   letter-spacing: 0.42px;
 }
-
-.info-item::before {
+.info__list {
+  display: flex;
+  gap: 30px;
+}
+.info__item::before {
   display: flex;
   content: url(../images/spytnik.png);
   background-color: #f5f4fa;
@@ -240,55 +228,51 @@ p {
   align-items: center;
   justify-content: center;
 }
-
-.info-before::before {
+.info__item {
+  display: flex;
+  flex-direction: column;
+}
+.info__clock::before {
+  content: url(../images/clock.png);
+  background-color: #f5f4fa;
+  width: 270px;
+  height: 120px;
+}
+.info__austronaut::before {
+  content: url(../images/astronaut.png);
+  background-color: #f5f4fa;
+  width: 270px;
+  height: 120px;
+}
+.info__before::before {
   content: url(../images/pc.png);
   background-color: #f5f4fa;
   width: 270px;
   height: 120px;
 }
 
-.info-clock::before {
-  content: url(../images/clock.png);
-  background-color: #f5f4fa;
-  width: 270px;
-  height: 120px;
+.pictures {
+  padding-bottom: 94px;
 }
-
-.info-austronaut::before {
-  content: url(../images/astronaut.png);
-  background-color: #f5f4fa;
-  width: 270px;
-  height: 120px;
-}
-
-.info-item {
-  display: flex;
-  flex-direction: column;
-}
-
-.pictures-title {
+.pictures__title {
   color: var(--text-color);
   text-align: center;
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 1.08px;
 }
-
-.pictures-list {
+.pictures__list {
   display: flex;
   margin-top: 50px;
   gap: 30px;
   position: relative;
 }
-
-.pictures-photo {
+.pictures__photo {
   position: relative;
   width: 370px;
   height: 294px;
 }
-
-.text-box {
+.pictures__box {
   position: relative;
   width: 370px;
   height: 70px;
@@ -304,10 +288,6 @@ p {
   line-height: normal;
   letter-spacing: 0.42px;
   text-transform: uppercase;
-}
-
-.pictures {
-  padding-bottom: 94px;
 }
 
 .workers-photo {
@@ -911,8 +891,8 @@ p {
 
 .button-2:hover {
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
-  background-color: var(--button-color);
-  color: #f5f4fa;
+  background-color: #2196f3;
+  color: white;
 }
 
 .button-3 {
@@ -922,7 +902,7 @@ p {
 
 .button-3:hover {
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
-  background-color: var(--button-color);
+  background-color: #2196f3;
   color: #f5f4fa;
 }
 
@@ -933,7 +913,7 @@ p {
 
 .button-4:hover {
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
-  background-color: var(--button-color);
+  background-color: #2196f3;
   color: #f5f4fa;
 }
 
@@ -944,7 +924,7 @@ p {
 
 .button-5:hover {
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
-  background-color: var(--button-color);
+  background-color: #2196f3;
   color: #f5f4fa;
 }
 
@@ -994,11 +974,6 @@ a {
   color: inherit;
 }
 
-.buttons-catalogue {
-  padding-top: 94px;
-  padding-bottom: 50px;
-}
-
 .photo-post {
   padding-bottom: 94px;
 }
@@ -1038,4 +1013,8 @@ a {
 
 .perf {
   margin-bottom: 28px;
+}
+
+.photo-post {
+  padding-bottom: 94px;
 }/*# sourceMappingURL=main.css.map */
