@@ -1,15 +1,7 @@
 
 
-.workers-title {
-    text-align: center;
-    color: var(--text-color);
-    text-align: center;
-    font-size: 36px;
-    font-weight: 700;
-    letter-spacing: 1.08px;
-  }
   
-  .worker-photo {
+  .workers-photo {
     width: 270px;
     height: 260px;
   }
@@ -18,15 +10,34 @@
     background: #f5f4fa;
     padding-top: 94px;
     padding-bottom: 94px;
+
+
+    &__title {
+      text-align: center;
+      color: var(--text-color);
+      text-align: center;
+      font-size: 36px;
+      font-weight: 700;
+      letter-spacing: 1.08px;
+    }
+
+    
+ &__list {
+  margin-top: 50px;
+  display: flex;
+  gap: 30px;
+}
+
+
+&__item {
+  border: 1px solid #eee;
+  background: #fff;
+  box-shadow: 0px 5px 15px -10px black;
+}
   }
   
-  .workers-list {
-    margin-top: 50px;
-    display: flex;
-    gap: 30px;
-  }
   
-  .worker-name {
+  .workers-name {
     color: var(--text-color);
     text-align: center;
     font-size: 16px;
@@ -45,11 +56,6 @@
     padding-bottom: 30px;
   }
   
-  .worker-item {
-    border: 1px solid #eee;
-    background: #fff;
-    box-shadow: 0px 5px 15px -10px black;
-  }
   
 .information {
     display: flex;
