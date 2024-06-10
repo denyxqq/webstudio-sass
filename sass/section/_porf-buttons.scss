@@ -1,5 +1,6 @@
-.buttons-catalogue{
-  
+.buttons-catalogue {
+  padding-top: 94px;
+  padding-bottom: 50px;
 }
 .buttons {
     display: flex;
@@ -15,6 +16,9 @@
     transition-duration:  500ms;
     transition-property: fill, background;
      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .photo-post {
+    padding-bottom: 94px;
   }
   
   .buttons-all {

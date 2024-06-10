@@ -852,6 +852,11 @@ p {
   letter-spacing: 0.6px;
 }
 
+.buttons-catalogue {
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
+
 .buttons {
   display: flex;
   gap: 8px;
@@ -866,6 +871,10 @@ p {
   transition-duration: 500ms;
   transition-property: fill, background;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.photo-post {
+  padding-bottom: 94px;
 }
 
 .buttons-all {
@@ -947,8 +956,7 @@ p {
   grid-template-columns: repeat(3, 1fr);
   position: relative;
 }
-
-.photo {
+.list__photo {
   width: 370px;
   border: 1px solid #eee;
   background: #fff;
@@ -956,8 +964,12 @@ p {
   position: relative;
   overflow: hidden;
 }
-
-.poster-about {
+.list__poster:hover .card-background {
+  opacity: 1;
+  transition: all 0.5s;
+  top: 0;
+}
+.list__about {
   margin-top: 20px;
   color: var(--text-color);
   font-family: Roboto;
@@ -967,8 +979,7 @@ p {
   letter-spacing: 1.08px;
   padding-left: 24px;
 }
-
-.poster-name {
+.list__name {
   margin-top: 4px;
   color: var(--content-color);
   font-size: 16px;
@@ -1023,12 +1034,6 @@ a {
   letter-spacing: 0.54px;
   align-items: center;
   text-align: center;
-}
-
-.card-poster:hover .card-background {
-  opacity: 1;
-  transition: all 0.5s;
-  top: 0;
 }
 
 .perf {

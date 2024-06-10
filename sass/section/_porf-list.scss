@@ -6,9 +6,10 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     position: relative;
-  }
-  
-  .photo {
+
+
+    
+  &__photo {
     width: 370px;
     border: 1px solid #eee;
     background: #fff;
@@ -16,8 +17,25 @@
     position: relative;
     overflow: hidden;
   }
+
+
   
-  .poster-about {
+  &__poster:hover .card-background {
+    opacity: 1;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    top: 0;
+  }
+
+  
+  &__posters{
+    
+  }
+  
+
+  
+  &__about {
     margin-top: 20px;
     color: var(--text-color);
     font-family: Roboto;
@@ -27,8 +45,8 @@
     letter-spacing: 1.08px;
     padding-left: 24px;
   }
-  
-  .poster-name {
+
+  &__name {
     margin-top: 4px;
     color: var(--content-color);
     font-size: 16px;
@@ -38,6 +56,10 @@
     padding-left: 24px;
     padding-bottom: 20px;
   }
+
+  }
+  
+  
   a {
     color: inherit;
   }
@@ -88,13 +110,6 @@
     text-align: center;
   }
   
-  .card-poster:hover .card-background {
-    opacity: 1;
-    -webkit-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all 0.5s;
-    top: 0;
-  }
   .perf {
     margin-bottom: 28px;
   }
