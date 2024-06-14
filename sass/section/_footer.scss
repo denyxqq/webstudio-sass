@@ -1,5 +1,5 @@
 .footer {
-    background: var(--footer-color);
+    background:     $footer-color;
     padding-top: 60px;
     padding-bottom: 60px;
 
@@ -12,7 +12,7 @@
 
 
 &__logo {
-  color: var(--button-color);
+  color:  $button-color;
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
@@ -34,7 +34,7 @@
 
 &__info{
   list-style: none;
-  color: var(--content-color);
+  color:  $content-color;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.71;

@@ -14,7 +14,8 @@
 
     &__title {
       text-align: center;
-      color: var(--text-color);
+      color: 
+      $text-color;
       text-align: center;
       font-size: 36px;
       font-weight: 700;
@@ -38,7 +39,8 @@
   
   
   .workers-name {
-    color: var(--text-color);
+    color: 
+    $text-color;
     text-align: center;
     font-size: 16px;
     font-weight: 500;
@@ -47,7 +49,7 @@
   }
   
   .worker-skill {
-    color: var(--content-color);
+    color: $content-color;
     text-align: center;
     font-size: 16px;
     font-weight: 400;

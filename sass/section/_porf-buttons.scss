@@ -10,7 +10,7 @@
   
   .button {
     border-radius: 4px;
-    color: var(--text-color);
+    color:  $text-color;
     font-weight: 500;
     letter-spacing: 0.48px;
     transition-duration:  500ms;
@@ -31,7 +31,7 @@
     letter-spacing: 0.48px;
     width: 73px;
     height: 38px;
-    color: var(--text-color);
+    color:  $text-color;
     border-radius: 4px;
     transition-duration:  500ms;
     transition-property: color, background;
