@@ -290,15 +290,22 @@ p {
   text-transform: uppercase;
 }
 
-.workers-photo {
-  width: 270px;
-  height: 260px;
-}
-
 .workers {
   background: #f5f4fa;
   padding-top: 94px;
   padding-bottom: 94px;
+}
+.workers__name {
+  color: #212121;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.48px;
+  margin-top: 30px;
+}
+.workers__photo {
+  width: 270px;
+  height: 260px;
 }
 .workers__title {
   text-align: center;
@@ -318,17 +325,7 @@ p {
   background: #fff;
   box-shadow: 0px 5px 15px -10px black;
 }
-
-.workers-name {
-  color: #212121;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 500;
-  letter-spacing: 0.48px;
-  margin-top: 30px;
-}
-
-.worker-skill {
+.workers__skill {
   color: #757575;
   text-align: center;
   font-size: 16px;
@@ -337,16 +334,14 @@ p {
   margin-top: 10px;
   padding-bottom: 30px;
 }
-
-.information {
+.workers__information {
   display: flex;
   justify-content: center;
   gap: 22px;
   list-style: none;
   padding-bottom: 30px;
 }
-
-.instagram {
+.workers__instagrams {
   width: 20px;
   height: 20px;
   flex-shrink: 0;
@@ -355,8 +350,7 @@ p {
   transition-property: fill, background;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.linkedin {
+.workers__linkedins {
   width: 20px;
   height: 20px;
   flex-shrink: 0;
@@ -365,8 +359,7 @@ p {
   transition-property: fill, background;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.facebook {
+.workers__facebooks {
   width: 20px;
   height: 20px;
   flex-shrink: 0;
@@ -375,8 +368,7 @@ p {
   transition-property: fill, background;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.twitter {
+.workers__twitters {
   width: 20px;
   height: 20px;
   flex-shrink: 0;
@@ -385,14 +377,12 @@ p {
   transition-property: fill, background;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.instagram :hover {
+.workers__instagrams :hover {
   width: 44px;
   height: 44px;
   border-radius: 100px;
 }
-
-.svg-instagram {
+.workers__instagram {
   width: 44px;
   height: 44px;
   border-radius: 100px;
@@ -400,22 +390,18 @@ p {
   align-items: center;
   justify-content: center;
 }
-
-.svg-instagram:hover {
+.workers__instagram:hover {
   background-color: #2196f3;
 }
-
-.svg-instagram:hover .instagram {
+.workers__instagram:hover .workers__instagrams {
   fill: #fff;
 }
-
-.twitter :hover {
+.workers__twitters :hover {
   width: 44px;
   height: 44px;
   border-radius: 100px;
 }
-
-.svg-twitter {
+.workers__twitter {
   width: 44px;
   height: 44px;
   border-radius: 100px;
@@ -423,22 +409,18 @@ p {
   align-items: center;
   justify-content: center;
 }
-
-.svg-twitter:hover {
+.workers__twitter:hover {
   background-color: #2196f3;
 }
-
-.svg-twitter:hover .twitter {
+.workers__twitter:hover .workers__twitters {
   fill: #fff;
 }
-
-.facebook :hover {
+.workers__facebooks :hover {
   width: 44px;
   height: 44px;
   border-radius: 100px;
 }
-
-.svg-facebook {
+.workers__facebook {
   width: 44px;
   height: 44px;
   border-radius: 100px;
@@ -446,22 +428,18 @@ p {
   align-items: center;
   justify-content: center;
 }
-
-.svg-facebook:hover {
+.workers__facebook:hover {
   background-color: #2196f3;
 }
-
-.svg-facebook:hover .facebook {
+.workers__facebook:hover .workers__facebooks {
   fill: #fff;
 }
-
-.linkedin :hover {
+.workers__linkedins :hover {
   width: 44px;
   height: 44px;
   border-radius: 100px;
 }
-
-.svg-linkedin {
+.workers__linkedin {
   width: 44px;
   height: 44px;
   border-radius: 100px;
@@ -469,12 +447,10 @@ p {
   align-items: center;
   justify-content: center;
 }
-
-.svg-linkedin:hover {
+.workers__linkedin:hover {
   background-color: #2196f3;
 }
-
-.svg-linkedin:hover .linkedin {
+.workers__linkedin:hover .workers__linkedins {
   fill: #fff;
 }
 
