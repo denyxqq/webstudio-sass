@@ -5,9 +5,8 @@
 
     
 &__social {
-  display: flex;
+  @extend %footers;
   gap: 70px;
-  align-items: center;
 }
 
 
@@ -51,14 +50,7 @@
 
 
 &__join {
-  color: #fff;
-  font-family: Roboto;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 0.42px;
-  text-transform: uppercase;
+@extend %links;
 }
 
 
@@ -68,8 +60,7 @@
   width: 44px;
   height: 44px;
   flex-shrink: 0;
-  display: flex;
-  align-items: center;
+ @extend %footers;
   justify-content: center;
   fill: #f5f4fa;
   transition-duration:  500ms;
@@ -106,14 +97,7 @@
 
 
 &__links {
-  color: #fff;
-  font-family: Roboto;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 0.42px;
-  text-transform: uppercase;
+  @extend %links;
 }
 
 

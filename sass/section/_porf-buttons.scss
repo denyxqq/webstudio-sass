@@ -9,10 +9,7 @@
   }
   
   .button {
-    border-radius: 4px;
-    color:  $text-color;
-    font-weight: 500;
-    letter-spacing: 0.48px;
+ @extend %bt;
     transition-duration:  500ms;
     transition-property: fill, background;
      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -22,28 +19,21 @@
   }
   
   .buttons-all {
-    color: #fff;
+    @extend %bt;
+  
     text-align: center;
     font-size: 16px;
     font-style: normal;
-    font-weight: 500;
     line-height: 26px;
-    letter-spacing: 0.48px;
     width: 73px;
     height: 38px;
-    color:  $text-color;
-    border-radius: 4px;
     transition-duration:  500ms;
     transition-property: color, background;
      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
   
 .buttons-all:hover {
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-      0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
-  
-    background-color: #2196f3;
-    color: white;
+  @extend %bthover;
   }
   
   
@@ -58,10 +48,7 @@
   }
   
   .button-2:hover {
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-      0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
-    background-color: $button-color;
-  color: white;
+    @extend %bthover;
   }
   
   .button-3 {
@@ -70,10 +57,7 @@
   }
   
   .button-3:hover {
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-      0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
-    background-color: $button-color;
-    color: #f5f4fa;
+    @extend %bthover;
   }
   
   .button-4 {
@@ -82,10 +66,7 @@
   }
   
   .button-4:hover {
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-      0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
-    background-color: $button-color;
-    color: #f5f4fa;
+    @extend %bthover;
   }
   
   .button-5 {
@@ -94,10 +75,7 @@
   }
   
   .button-5:hover {
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-      0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
-    background-color: $button-color;
-    color: #f5f4fa;
+@extend %bthover;
   }
   
   

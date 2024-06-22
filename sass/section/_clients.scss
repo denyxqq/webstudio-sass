@@ -17,8 +17,7 @@
 
     
   &__name {
-    justify-content: center;
-    display: flex;
+@extend %clients;
     gap: 30px;
     list-style: none;
   }
@@ -30,8 +29,7 @@
     width: 170px;
     height: 92px;
     flex-shrink: 0;
-    display: flex;
-    justify-content: center;
+    @extend %clients;
     align-items: center;
   }
 

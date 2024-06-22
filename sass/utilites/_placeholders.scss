@@ -1,0 +1,73 @@
+%word{
+    align-items: center; 
+    gap: 50px;
+    display: flex;
+}
+
+%sizes{
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+}
+
+%pos{
+    flex-shrink: 0;
+    height: 4px;
+    border-radius: 2px;
+    display: block;
+}
+
+%texts{
+    font-size: 14px; 
+    letter-spacing: 0.42px;
+}
+
+%background{
+    background-color: #f5f4fa;
+    width: 270px;
+    height: 120px;
+}
+
+%line{
+    position: relative;
+    width: 370px;
+}
+
+%clients {
+    justify-content: center;
+    display: flex;
+}
+
+%footers{
+    display: flex;
+    align-items: center;
+}
+%links{
+    color: #fff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+
+%bt{
+    border-radius: 4px;
+    color: $text-color;
+    font-weight: 500;
+    letter-spacing: 0.48px;
+}
+
+%bthover{
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+  background-color: $button-color;
+  color: #f5f4fa;
+}
+
+%posts{
+    display: flex;
+    align-items: center;
+}
