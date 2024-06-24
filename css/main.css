@@ -575,6 +575,14 @@ p {
   transition-property: fill, background;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.footer__content {
+  border-radius: 50px;
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  transition-duration: 250ms;
+  margin-bottom: 30px;
+}
 .footer__link {
   width: 20px;
   height: 20px;
