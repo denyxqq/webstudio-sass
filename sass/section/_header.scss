@@ -6,8 +6,11 @@
     padding-top: 20px;
   }
 
+
+ 
+
   &__logo {
-    color:  $button-color;
+    color: $button-color;
     font-family: Raleway;
     font-size: 26px;
     font-weight: 700;
@@ -17,21 +20,31 @@
   }
 
   &__accent {
- color:black;
+    color: black;
   }
 
   &__list {
-    @extend %word;
-    margin-right: auto;
-    margin-left: 93px;
-  }
+  
+display: none;
+@media screen and (min-width:768px) {
+  display: flex;
+  gap: 50px;
+}
 
-  &__item {
-  }
+@media screen and (min-width: 1200px) {
+  gap: 10px;
+}
+
+
+  
+}
+
+  
+
 
   &__link {
-    color:  $text-color;
-  @extend %sizes;
+    color: $text-color;
+    @extend %sizes;
     transition-duration: 500ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: color;
@@ -41,35 +54,35 @@
     transition-property: color;
     transition-duration: 500ms;
 
-    &::after {
-      content: "";
-  
-      background: #2196f3;
-      width: 48px;
-      @extend %pos;
-      position: absolute;
-      top: 76px;
-      right: 100 px;
-      color: #2196f3;
-      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    }
+   
   }
 
   &__contacts {
-@extend %word;
+     @extend %word;
+     display: none;
+
+     @media screen and (min-width:768px) {
+      display:flex;
+      flex-direction: column;
+     }
+@media screen and (min-width: 1200px) {
+flex-direction: row;
+}
+
+
   }
 
   &__adress {
-    color:  $content-color;
-@extend %sizes;
+    color: $content-color;
+    @extend %sizes;
   }
 
   &__link:hover {
-    color: $button-color  ;
+    color: $button-color;
   }
 
   &__adress:hover {
-    color: $button-color  ;
+    color: $button-color;
   }
 
   &__adress:hover .mail-svg {
@@ -96,7 +109,7 @@
   }
   .perf::after {
     content: "";
-@extend %pos;
+    @extend %pos;
     background: #2196f3;
     margin: auto;
     width: 78px;
