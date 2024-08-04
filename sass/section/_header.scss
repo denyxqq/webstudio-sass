@@ -5,6 +5,9 @@
   &__navigation {
     display: flex;
     padding-top: 20px;
+    @media screen and (min-width: 320px) {
+      padding-bottom: 16px;
+    }
   }
 
 
@@ -30,6 +33,7 @@
       width: 134px;
       height: 28px;
     }
+ 
   }
 
   &__accent {
@@ -43,6 +47,11 @@
   @media screen and (min-width:768px) {
     display: none;
   }
+
+  @media screen and (min-width: 320px) {
+background-color: transparent;
+
+  }
 }
 
 &__mobmenu{
@@ -55,7 +64,13 @@ flex-shrink: 0;
 @media screen and (min-width:768px) {
   display: none;
 }
+
+@media screen and (min-width:320px) {
+  margin-left: 226px;
+  background-color: transparent;
 }
+}
+
 
 
   &__list {
