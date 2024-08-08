@@ -73,7 +73,8 @@
 }
 
 .container {
-  width: 450px;
+  max-width: 450px;
+  width: 100%;
   border: dotted red;
   margin: 0 auto;
   padding-left: 15px;
@@ -81,12 +82,14 @@
 }
 @media screen and (min-width: 768px) {
   .container {
-    width: 738px;
+    max-width: 738px;
+    width: 100%;
   }
 }
 @media screen and (min-width: 1200px) {
   .container {
-    width: 1170px;
+    max-width: 1170px;
+    width: 100%;
   }
 }
 
@@ -175,6 +178,7 @@ p {
 @media screen and (min-width: 320px) {
   .header__moblbutton {
     background-color: transparent;
+    margin-left: auto;
   }
 }
 .header__mobmenu {
@@ -194,7 +198,6 @@ p {
 }
 @media screen and (min-width: 320px) {
   .header__mobmenu {
-    margin-left: 226px;
     background-color: transparent;
   }
 }
@@ -294,7 +297,6 @@ p {
 
 .hero {
   display: flex;
-  height: 600px;
   background-color: #2f303a;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/img.webp);
   background-repeat: no-repeat;
@@ -303,13 +305,7 @@ p {
   padding-bottom: 200px;
 }
 .hero__heading {
-  width: 696px;
-  color: #fff;
-  text-align: center;
-  font-size: 44px;
-  font-weight: 900;
-  letter-spacing: 2.64px;
-  text-transform: uppercase;
+  max-width: 696px;
   margin-bottom: 30px;
 }
 @media screen and (min-width: 320px) {
@@ -323,8 +319,7 @@ p {
     line-height: 42px; /* 161.538% */
     letter-spacing: 1.56px;
     text-transform: uppercase;
-    width: 360px;
-    height: 84px;
+    max-width: 696px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -342,6 +337,12 @@ p {
     height: 120px;
   }
 }
+@media screen and (min-width: 768px) {
+  .hero__heading {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
 .hero__button {
   width: 216px;
   height: 50px;
@@ -357,7 +358,8 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 80px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 @media screen and (min-width: 768px) {
@@ -365,11 +367,15 @@ p {
     width: 200px;
     height: 50px;
     flex-shrink: 0;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 @media screen and (min-width: 1200px) {
   .hero__button {
     margin-left: 250px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 .hero__button__text {
@@ -381,10 +387,10 @@ p {
 }
 @media screen and (min-width: 320px) {
   .hero__box {
-    width: 480px;
+    max-width: 480px;
+    width: 100%;
     height: 400px;
     flex-shrink: 0;
-    padding-left: 60px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -392,12 +398,13 @@ p {
     width: 768px;
     height: 400px;
     flex-shrink: 0;
-    padding-left: 220px;
   }
 }
 @media screen and (min-width: 1200px) {
   .hero__box {
     padding-left: 40px;
+    max-width: 1170px;
+    width: 100%;
   }
 }
 
@@ -419,7 +426,7 @@ p {
     gap: 60px;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 480px;
+    height: 520px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -544,7 +551,6 @@ p {
 }
 @media screen and (min-width: 320px) {
   .info__item {
-    width: 3000px;
     max-width: 100%;
     flex-direction: column;
   }
@@ -552,7 +558,6 @@ p {
 @media screen and (min-width: 768px) {
   .info__item {
     width: 300px;
-    height: 120px;
     flex-shrink: 0;
   }
 }
@@ -729,6 +734,13 @@ p {
     flex-shrink: 0;
   }
 }
+@media screen and (min-width: 768px) {
+  .workers__photo {
+    width: 354px;
+    height: 374px;
+    flex-shrink: 0;
+  }
+}
 @media screen and (min-width: 1200px) {
   .workers__photo {
     width: 270px;
@@ -751,7 +763,7 @@ p {
 }
 @media screen and (min-width: 768px) {
   .workers__list {
-    width: 738px;
+    max-width: 738px;
     height: 1102px;
     flex-shrink: 0;
     display: flex;
@@ -773,6 +785,7 @@ p {
     flex-direction: row;
     width: 1170px;
     height: 428px;
+    width: 100%;
   }
 }
 .workers__item {
@@ -784,6 +797,13 @@ p {
   .workers__item {
     width: 430px;
     height: 622px;
+    flex-shrink: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .workers__item {
+    width: 354px;
+    height: 536px;
     flex-shrink: 0;
   }
 }
@@ -947,6 +967,13 @@ p {
   height: 92px;
   flex-shrink: 0;
   align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .clients__box {
+    width: 226px;
+    height: 92px;
+    flex-shrink: 0;
+  }
 }
 .clients__logo {
   width: 106px;

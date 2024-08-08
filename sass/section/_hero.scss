@@ -1,6 +1,6 @@
 .hero {
     display: flex;
-    height: 600px;
+ 
     background-color:  $hero-background;
     background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
@@ -14,13 +14,8 @@
 
 
     &__heading {
-      width: 696px;
-      color: #fff;
-      text-align: center;
-      font-size: 44px;
-      font-weight: 900;
-      letter-spacing: 2.64px;
-      text-transform: uppercase;
+      max-width: 696px;
+
       margin-bottom: 30px;
 
       @media screen and (min-width:320px) {
@@ -33,8 +28,8 @@ font-weight: 900;
 line-height: 42px; /* 161.538% */
 letter-spacing: 1.56px;
 text-transform: uppercase;
-width: 360px;
-height: 84px;
+max-width: 696px;
+
       }
       @media screen and (min-width:1200px) {
         color: #FFF;
@@ -50,6 +45,12 @@ height: 84px;
         height: 120px;
       }
       
+      
+        
+      @media screen and (min-width:768px) {
+        margin-right: auto;
+        margin-left:auto;
+      }
     }
 
     
@@ -67,16 +68,20 @@ flex-shrink: 0;
 display: flex;
 justify-content: center;
 align-items: center;
-margin-left: 80px;
+margin-left: auto;
+margin-right: auto;
   }
 @media screen and (min-width:768px) {
   width: 200px;
 height: 50px;
 flex-shrink: 0;
-
+margin-left: auto;
+margin-right: auto;
 }
 @media screen and (min-width:1200px) {
   margin-left: 250px;
+  margin-left: auto;
+margin-right: auto;
 }
 
 }
@@ -93,19 +98,21 @@ flex-shrink: 0;
 
 &__box {
 @media screen and (min-width:320px) {
-  width: 480px;
+  max-width: 480px;
+  width: 100%;
 height: 400px;
 flex-shrink: 0;
-padding-left: 60px; 
+
 }
 @media screen and (min-width:768px) {
   width: 768px;
 height: 400px;
 flex-shrink: 0;
-padding-left: 220px;
 }
 @media screen and (min-width:1200px) {
   padding-left: 40px;
+  max-width: 1170px;
+  width: 100%;
 }
 
 }
