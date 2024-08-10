@@ -666,6 +666,21 @@ p {
 .pictures {
   padding-bottom: 94px;
 }
+@media screen and (min-width: 320px) {
+  .pictures {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .pictures {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .pictures {
+    display: flex;
+  }
+}
 .pictures__title {
   color: #212121;
   text-align: center;
@@ -943,8 +958,15 @@ p {
   fill: #fff;
 }
 
-.clients {
-  height: 372px;
+@media screen and (min-width: 768px) {
+  .clients {
+    padding-bottom: 60px;
+  }
+}
+@media screen and (min-width: 320px) {
+  .clients {
+    padding-bottom: 60px;
+  }
 }
 .clients__title {
   color: #212121;
@@ -956,9 +978,36 @@ p {
   letter-spacing: 1.08px;
   justify-content: center;
 }
+@media screen and (min-width: 768px) {
+  .clients__title {
+    width: 314px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+}
 .clients__name {
   gap: 30px;
   list-style: none;
+}
+@media screen and (min-width: 320px) {
+  .clients__name {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 768px) {
+  .clients__name {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .clients__name {
+    gap: 15px;
+  }
 }
 .clients__box {
   border-radius: 4px;
@@ -968,9 +1017,23 @@ p {
   flex-shrink: 0;
   align-items: center;
 }
+@media screen and (min-width: 320px) {
+  .clients__box {
+    width: 200px;
+    height: 92px;
+    flex-shrink: 0;
+  }
+}
 @media screen and (min-width: 768px) {
   .clients__box {
     width: 226px;
+    height: 92px;
+    flex-shrink: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .clients__box {
+    width: 170px;
     height: 92px;
     flex-shrink: 0;
   }
@@ -999,6 +1062,23 @@ p {
 }
 .footer__social {
   gap: 70px;
+}
+@media screen and (min-width: 320px) {
+  .footer__social {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer__social {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer__social {
+    display: flex;
+  }
 }
 .footer__logo {
   color: #2196f3;
@@ -1294,13 +1374,36 @@ p {
   gap: 8px;
   justify-content: center;
 }
+@media screen and (min-width: 320px) {
+  .buttons {
+    width: 326px;
+    height: 91px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 8px;
+  }
+}
+@media screen and (min-width: 320px) and (min-width: 768px) {
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+    margin-left: auto;
+    flex-wrap: wrap;
+    height: 38px;
+    width: 575px;
+    gap: 8px;
+  }
+}
 
 .button {
   transition-duration: 500ms;
   transition-property: fill, background;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .photo-post {
   padding-bottom: 94px;
 }
@@ -1316,6 +1419,20 @@ p {
   transition-property: color, background;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+@media screen and (min-width: 320px) {
+  .buttons-all {
+    width: 73px;
+    height: 38px;
+    flex-shrink: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .buttons-all {
+    width: 73px;
+    height: 38px;
+    flex-shrink: 0;
+  }
+}
 
 .card-poster:hover {
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
@@ -1325,22 +1442,76 @@ p {
   width: 125px;
   height: 38px;
 }
+@media screen and (min-width: 320px) {
+  .button-2 {
+    width: 125px;
+    height: 38px;
+    flex-shrink: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .button-2 {
+    width: 125px;
+    height: 38px;
+    flex-shrink: 0;
+  }
+}
 
 .button-3 {
   width: 122px;
   height: 38px;
 }
-
+@media screen and (min-width: 320px) {
+  .button-3 {
+    width: 112px;
+    height: 38px;
+    flex-shrink: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .button-3 {
+    width: 112px;
+    height: 38px;
+    flex-shrink: 0;
+  }
+}
 .button-4 {
   width: 130px;
   height: 38px;
+}
+@media screen and (min-width: 320px) {
+  .button-4 {
+    width: 103px;
+    height: 38px;
+    flex-shrink: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .button-4 {
+    width: 103px;
+    height: 38px;
+    flex-shrink: 0;
+  }
 }
 
 .button-5 {
   width: 130px;
   height: 38px;
 }
-
+@media screen and (min-width: 320px) {
+  .button-5 {
+    width: 130px;
+    height: 38px;
+    flex-shrink: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .button-5 {
+    width: 130px;
+    height: 38px;
+    flex-shrink: 0;
+  }
+}
 .list {
   display: flex;
   flex-wrap: wrap;
@@ -1348,6 +1519,24 @@ p {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   position: relative;
+}
+@media screen and (min-width: 320px) {
+  .list {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media screen and (min-width: 768px) {
+  .list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 .list__photo {
   width: 370px;
@@ -1357,10 +1546,24 @@ p {
   position: relative;
   overflow: hidden;
 }
+@media screen and (min-width: 768px) {
+  .list__photo {
+    width: 354px;
+    height: 440px;
+    flex-shrink: 0;
+  }
+}
 .list__poster:hover .card-background {
   opacity: 1;
   transition: all 0.5s;
   top: 0;
+}
+@media screen and (min-width: 768px) {
+  .list__posters {
+    width: 354px;
+    height: 294px;
+    flex-shrink: 0;
+  }
 }
 .list__about {
   margin-top: 20px;

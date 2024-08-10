@@ -7,6 +7,21 @@
 &__social {
   @extend %footers;
   gap: 70px;
+
+  @media screen and (min-width:320px) {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  
+
+  }
+  @media screen and (min-width:768px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+  }
+  @media screen and (min-width:1200px) {
+    display: flex;
+  }
 }
 
 
@@ -148,6 +163,9 @@
   margin-right: 10px;
   fill: gray;
 }
+
+
+
   }
 
 

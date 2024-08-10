@@ -6,6 +6,27 @@
     display: flex;
     gap: 8px;
     justify-content: center;
+    @media screen and (min-width:320px) {
+      width: 326px;
+height: 91px;
+display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 8px;
+   @media screen and (min-width:768px) {
+    display: flex;
+    flex-direction: row;
+ margin-right: auto;
+ margin-left: auto;
+    flex-wrap: wrap;
+    height: 38px;
+   width: 575px;
+    gap: 8px;
+   }
+
+    }
   }
   
   .button {
@@ -13,6 +34,9 @@
     transition-duration:  500ms;
     transition-property: fill, background;
      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+     @media screen and (min-width:768px) {
+      
+     }
   }
   .photo-post {
     padding-bottom: 94px;
@@ -20,7 +44,6 @@
   
   .buttons-all {
     @extend %bt;
-  
     text-align: center;
     font-size: 16px;
     font-style: normal;
@@ -30,6 +53,18 @@
     transition-duration:  500ms;
     transition-property: color, background;
      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
+    @media screen and (min-width:320px) {
+      width: 73px;
+height: 38px;
+flex-shrink: 0;
+    }
+    
+     @media screen and (min-width:768px) {
+      width: 73px;
+height: 38px;
+flex-shrink: 0;
+     }
   }
   
 .buttons-all:hover {
@@ -45,6 +80,17 @@
   .button-2 {
     width: 125px;
     height: 38px;
+
+    @media screen and (min-width:320px) {
+      width: 125px;
+height: 38px;
+flex-shrink: 0;
+    }
+    @media screen and (min-width:768px) {
+      width: 125px;
+height: 38px;
+flex-shrink: 0;
+    }
   }
   
   .button-2:hover {
@@ -54,6 +100,20 @@
   .button-3 {
     width: 122px;
     height: 38px;
+
+    @media screen and (min-width:320px) {
+      width: 112px;
+height: 38px;
+flex-shrink: 0;
+    }
+    @media screen and (min-width:768px) {
+      width: 112px;
+height: 38px;
+flex-shrink: 0;
+    }
+    @media screen and (min-width:1200px) {
+      
+    }
   }
   
   .button-3:hover {
@@ -63,6 +123,17 @@
   .button-4 {
     width: 130px;
     height: 38px;
+    @media screen and (min-width:320px) {
+      width: 103px;
+height: 38px;
+flex-shrink: 0;
+    }
+
+    @media screen and (min-width:768px) {
+      width: 103px;
+      height: 38px;
+      flex-shrink: 0;
+    }
   }
   
   .button-4:hover {
@@ -72,6 +143,19 @@
   .button-5 {
     width: 130px;
     height: 38px;
+    @media screen and (min-width:320px) {
+      width: 130px;
+height: 38px;
+flex-shrink: 0;
+    }
+    @media screen and (min-width:768px) {
+      width: 130px;
+height: 38px;
+flex-shrink: 0;
+    }
+@media screen and (min-width:1200px) {
+  
+}
   }
   
   .button-5:hover {
