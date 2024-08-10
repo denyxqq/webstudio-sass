@@ -1,5 +1,5 @@
 .info {
-  padding-top: 94px;
+  padding-top: 60px;
   padding-bottom: 94px;
 
   &__list {
@@ -8,6 +8,7 @@
     @media screen and (min-width: 320px) {
       display: flex;
       flex-direction: column;
+      gap: 30px ;
     }
     @media screen and (min-width: 768px) {
    gap: 60px  ;
@@ -74,8 +75,7 @@ flex-direction: row;
     font-weight: 400;
     line-height: 1.71;
     @media screen and (min-width: 320px) {
-      width: 450px;
-      height: 50px;
+    
       flex-shrink: 0;
       color: #757575;
       font-family: Roboto;
@@ -106,7 +106,7 @@ flex-direction: row;
     align-items: center;
     justify-content: center;
     @media screen and (min-width: 320px) {
-      width: 420px;
+      max-width: 420px;
       height: 120px;
       flex-shrink: 0;
    
@@ -160,7 +160,7 @@ max-width: 100%;
     align-items: center;
     justify-content: center;
     @media screen and (min-width: 320px) {
-      width: 420px;
+      max-width: 420px;
       height: 120px;
       flex-shrink: 0;
    
@@ -185,7 +185,7 @@ max-width: 100%;
     align-items: center;
     justify-content: center;
     @media screen and (min-width: 320px) {
-      width: 420px;
+      max-width: 420px;
       height: 120px;
       flex-shrink: 0;
    
@@ -216,7 +216,7 @@ max-width: 100%;
     align-items: center;
     justify-content: center;
     @media screen and (min-width: 320px) {
-      width: 420px;
+      max-width: 420px;
       height: 120px;
       flex-shrink: 0;
    
