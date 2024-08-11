@@ -121,7 +121,11 @@ a {
 }
 
 h1,
+h2,
 h3,
+h4,
+h5,
+h6,
 ul,
 p {
   margin: 0;
@@ -238,6 +242,7 @@ p {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    align-items: flex-start;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -301,7 +306,7 @@ p {
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/img.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 200px;
+  padding-top: 118px;
   padding-bottom: 200px;
 }
 .hero__heading {
@@ -395,7 +400,6 @@ p {
 @media screen and (min-width: 768px) {
   .hero__box {
     width: 768px;
-    height: 400px;
     flex-shrink: 0;
   }
 }
@@ -525,6 +529,7 @@ p {
 }
 @media screen and (min-width: 320px) {
   .info__spytnik::before {
+    width: 100%;
     max-width: 420px;
     height: 120px;
     flex-shrink: 0;
@@ -580,6 +585,7 @@ p {
 }
 @media screen and (min-width: 320px) {
   .info__clock::before {
+    width: 100%;
     max-width: 420px;
     height: 120px;
     flex-shrink: 0;
@@ -608,6 +614,7 @@ p {
 }
 @media screen and (min-width: 320px) {
   .info__austronaut::before {
+    width: 100%;
     max-width: 420px;
     height: 120px;
     flex-shrink: 0;
@@ -641,6 +648,7 @@ p {
 }
 @media screen and (min-width: 320px) {
   .info__before::before {
+    width: 100%;
     max-width: 420px;
     height: 120px;
     flex-shrink: 0;
@@ -1178,6 +1186,22 @@ p {
   flex-shrink: 0;
   margin-right: 10px;
   fill: gray;
+}
+@media screen and (min-width: 768px) {
+  .footer__spaces {
+    display: block;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 0px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer__spaces {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+  }
 }
 
 .backdrop {
