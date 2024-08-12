@@ -5,7 +5,8 @@
   padding-bottom: 60px;
  }
  @media screen and (min-width:320px) {
-  padding-bottom: 60px;}
+  padding-bottom: 60px;
+ }
  
 
 
@@ -18,7 +19,20 @@
       line-height: normal;
       letter-spacing: 1.08px;
       justify-content: center;
+      @media screen and (min-width:320px) {
+        margin-bottom: 30px;
+      }
+@media screen and (min-width:768px) {
+  color: #212121;
+text-align: center;
+font-family: Roboto;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.84px;
 
+}
       @media screen and (min-width:768px) {
         width: 314px;
         margin-left: auto;
