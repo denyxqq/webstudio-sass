@@ -1131,6 +1131,8 @@ p {
 @media screen and (min-width: 1200px) {
   .footer__social {
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
   }
 }
 .footer__logo {
