@@ -133,16 +133,13 @@ p {
   list-style: none;
 }
 
-.header {
-  height: 80px;
-}
 .header__navigation {
   display: flex;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 @media screen and (min-width: 320px) {
   .header__navigation {
-    padding-bottom: 16px;
+    padding-bottom: 10px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -420,7 +417,7 @@ p {
 
 .info {
   padding-top: 60px;
-  padding-bottom: 94px;
+  padding-bottom: 60px;
 }
 @media screen and (min-width: 768px) {
   .info {
@@ -1175,14 +1172,6 @@ p {
   transition-duration: 500ms;
   transition-property: fill, background;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.footer__content {
-  border-radius: 50px;
-  width: 44px;
-  height: 44px;
-  padding: 12px;
-  transition-duration: 250ms;
-  margin-bottom: 30px;
 }
 .footer__link {
   width: 20px;
