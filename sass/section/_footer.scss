@@ -78,15 +78,15 @@ justify-content: center;
 
 &__join {
 @extend %links;
-
+  margin-bottom: 20px;
 @media screen and (min-width:320px) {
   
 }
 @media screen and (min-width:768px) {
-
+text-align: center;
 }
 @media screen and (min-width:1200px) {
-  
+  text-align: start;
 }
 }
 
@@ -142,6 +142,12 @@ justify-content: center;
 &__links {
   @extend %links;
   margin-bottom: 20px;
+  @media screen and (min-width:1200px) {
+  text-align: start;
+  }
+  @media screen and (min-width:768px) {
+    text-align: center;
+  }
 }
 
 
@@ -211,7 +217,11 @@ margin-bottom: 20px;
 align-items: start;
   }
 }
-
+&__infos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
   }
 
