@@ -1217,6 +1217,7 @@ p {
 }
 @media screen and (min-width: 1200px) {
   .footer__links {
+    display: flex;
     text-align: start;
   }
 }
