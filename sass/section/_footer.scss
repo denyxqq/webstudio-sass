@@ -104,10 +104,6 @@ text-align: center;
   transition-property: fill, background;
    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-&__content{
-
-
-}
 
 
 &__link {
@@ -223,6 +219,11 @@ align-items: start;
   flex-direction: column;
   align-items: center;
 }
+
+
+
+
+
 
   }
 
