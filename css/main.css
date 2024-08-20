@@ -300,6 +300,12 @@ p {
 .header .mail {
   margin-bottom: 9px;
 }
+.header__mails {
+  width: 14px;
+  height: 10px;
+  flex-shrink: 0;
+  margin-right: 8px;
+}
 
 .hero {
   display: flex;
@@ -447,9 +453,9 @@ p {
 @media screen and (min-width: 768px) {
   .info__list {
     gap: 60px;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 520px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -576,7 +582,7 @@ p {
 }
 @media screen and (min-width: 768px) {
   .info__item {
-    width: 354px;
+    width: 300px;
     flex-shrink: 0;
   }
 }

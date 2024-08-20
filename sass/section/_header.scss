@@ -189,4 +189,12 @@ align-items: center;
   .mail {
     margin-bottom: 9px;
   }
+
+
+  &__mails{
+    width: 14px;
+height: 10px;
+flex-shrink: 0;
+margin-right: 8px;
+  }
 }
