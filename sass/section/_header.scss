@@ -170,11 +170,140 @@ margin-right: 8px;
 
   // 01489672307946
 
+  .is-hidden {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+&__icon-close{
+  width: 40px;
+  height: 40px;
+flex-shrink: 0;
+fill: black;
+}
+
+&__menu-info-place{
+  flex-direction: column;
+}
+
+
+
+&__box{
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  min-width: 320px;
+  max-width: 768px;
+  background: #FFF;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.04), 0px 2px 4px 0px rgba(0, 0, 0, 0.08), 0px 1px 3px 0px rgba(0, 0, 0, 0.16);
+  position: fixed;
+  left: 0px;
+  top: 0px;
+
+  transition: opacity 250ms linear , visibility 250ms linear;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  transition-property: opacity visibility;
+display: flex;
+
+  @media screen and (min-width: 768px) {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+@media screen and (min-width: 1200px) {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+}
+
+&__menu-network-site{
+  color: #2196F3;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 22px; /* 122.222% */
+letter-spacing: 0.36px;
+}
+
+&__menu-place{
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+&__menu-contact{
+  flex-direction: column;
+}
+
+&__menu-closes{
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: transparent;
+  margin-left: auto;
+}
+
+&___menu-section{
+  min-width: 320px;
+  max-width: 768px;
+  width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: $text-color;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.04), 0px 2px 4px 0px rgba(0, 0, 0, 0.08), 0px 1px 3px 0px rgba(0, 0, 0, 0.16);
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-left: 40px;
+  padding-bottom: 48px;
+}
 
 
 
 
 
+&__menu-email-style{
+  color: #757575;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.48px;
+}
+
+
+&__menu-numb-style{
+  color: #2196F3;
+font-family: Roboto;
+font-size: 34px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.68px;
+}
+
+
+
+
+
+
+
+&__menu-page{
+  color: #212121;
+font-family: Roboto;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.8px;
+}
 
 
 &__moblbutton{
