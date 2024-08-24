@@ -185,12 +185,17 @@ fill: black;
 }
 
 &__menu-info-place{
+  display: flex;
   flex-direction: column;
+  gap: 35px ;
+  margin-bottom: 302px;
 }
 
 
 
 &__box{
+  position: absolute;
+  padding-left: 40px;
   z-index: 1;
   width: 100%;
   height: 100%;
@@ -201,12 +206,11 @@ fill: black;
   position: fixed;
   left: 0px;
   top: 0px;
-
   transition: opacity 250ms linear , visibility 250ms linear;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
   transition-property: opacity visibility;
-display: flex;
+
 
   @media screen and (min-width: 768px) {
     opacity: 0;
@@ -237,15 +241,27 @@ letter-spacing: 0.36px;
   height: 100%;
 }
 
-&__menu-contact{
+&__menu-contact{display: flex;
+  gap: 32px;
   flex-direction: column;
+  margin-bottom: 64px;
+}
+
+&__menu-networks{
+  display: flex;
+  gap: 20px;
 }
 
 &__menu-closes{
   width: 40px;
   height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0px;
+  flex-wrap: nowrap;
   border: none;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0);
   margin-left: auto;
 }
 
@@ -280,7 +296,7 @@ letter-spacing: 0.48px;
 
 
 &__menu-numb-style{
-  color: #2196F3;
+ 
 font-family: Roboto;
 font-size: 34px;
 font-style: normal;
@@ -288,7 +304,9 @@ font-weight: 500;
 line-height: normal;
 letter-spacing: 0.68px;
 }
-
+&__menu-numb-style:hover{
+ color: #2196F3;
+}
 
 
 
@@ -296,7 +314,6 @@ letter-spacing: 0.68px;
 
 
 &__menu-page{
-  color: #212121;
 font-family: Roboto;
 font-size: 40px;
 font-style: normal;
@@ -304,7 +321,9 @@ font-weight: 500;
 line-height: normal;
 letter-spacing: 0.8px;
 }
-
+&__menu-page:hover{
+color: #2196F3;
+}
 
 &__moblbutton{
   @media screen and (min-width:1200px) {

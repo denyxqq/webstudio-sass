@@ -282,9 +282,14 @@ p {
   fill: black;
 }
 .header__menu-info-place {
+  display: flex;
   flex-direction: column;
+  gap: 35px;
+  margin-bottom: 302px;
 }
 .header__box {
+  position: absolute;
+  padding-left: 40px;
   z-index: 1;
   width: 100%;
   height: 100%;
@@ -299,7 +304,6 @@ p {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
   transition-property: opacity visibility;
-  display: flex;
 }
 @media screen and (min-width: 768px) {
   .header__box {
@@ -330,13 +334,25 @@ p {
   height: 100%;
 }
 .header__menu-contact {
+  display: flex;
+  gap: 32px;
   flex-direction: column;
+  margin-bottom: 64px;
+}
+.header__menu-networks {
+  display: flex;
+  gap: 20px;
 }
 .header__menu-closes {
   width: 40px;
   height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0px;
+  flex-wrap: nowrap;
   border: none;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0);
   margin-left: auto;
 }
 .header___menu-section {
@@ -363,7 +379,6 @@ p {
   letter-spacing: 0.48px;
 }
 .header__menu-numb-style {
-  color: #2196F3;
   font-family: Roboto;
   font-size: 34px;
   font-style: normal;
@@ -371,14 +386,19 @@ p {
   line-height: normal;
   letter-spacing: 0.68px;
 }
+.header__menu-numb-style:hover {
+  color: #2196F3;
+}
 .header__menu-page {
-  color: #212121;
   font-family: Roboto;
   font-size: 40px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.8px;
+}
+.header__menu-page:hover {
+  color: #2196F3;
 }
 @media screen and (min-width: 1200px) {
   .header__moblbutton {
